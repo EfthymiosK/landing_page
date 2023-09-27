@@ -71,7 +71,7 @@ header div p {
     color: #e5e7eb;
 }
 
-button {
+header div button {
     width: 150px;
     height: 50px;
     color: #f9faf8;
@@ -85,4 +85,117 @@ button {
 a {
     color: #e5e7eb;
     text-decoration: none;
+}
+
+main h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.div-container {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 60%;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.sub-div1, .sub-div2, .sub-div3, .sub-div4 {
+width: 170px;
+height: 280px;
+flex: 1;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.square {
+border:5px solid #3882f6;
+height: 70%;
+width: 200px;
+border-radius: 15px;
+}
+.text {
+    width: 200px;
+    font-size: large;
+    padding-top: 10px;
+}
+.blank-div {
+    width: 100%;
+    height: 202px;
+}
+.quote-section {
+    height: 700px;
+    width: 100%;
+    background-color: #e5e7eb;
+}
+.quote-section p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding-top: 300px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+span {
+    font-weight: 900;
+}
+.call-to-action-container {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call-to-action-div {
+    background-color: #3882f6;
+    border-radius: 10px;
+    height: 40%;
+    width: 70%;
+    display: flex;
+}
+.call-to-action-text {
+color: white;
+width: 70%;
+}
+.call-to-action-text h3 {
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-bottom: 5px;
+}
+.call-to-action-text h4 {
+    padding-left: 60px;
+    font-weight: 200;
+}
+.call-to-action-button-container {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.call-to-action-button-container button {
+    width: 130px;
+    height: 50px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: 3px solid white;
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+}
+.footer {
+    width: 100%;
+    height: 150px;
+    background-color: #1F2937;
+    color: #e5e7eb;
+}
+.footer h4 {
+    text-align: center;
+    padding-top: 65px;
 }
